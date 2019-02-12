@@ -35,7 +35,7 @@ public class CustomAlertDialog {
 *         .withMessage(String)
 *         .withTitle(String)
 *         .buttonType(CustomAlertDialog.TWO_BUTTON)
-*         .setListener(CustomAlertDialog.listener)
+*         .setSubmitListener(CustomAlertDialog.listener)
 *         .build()
 *         .show();
 * 
