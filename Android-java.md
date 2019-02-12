@@ -64,6 +64,7 @@ public String getClientName4Seq(int seq) {
 </code></pre>
 
 
+<hr />
 
 
 ## 2. 함수 코딩 스타일
