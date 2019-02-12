@@ -63,3 +63,33 @@ public String getClientName4Seq(int seq) {
 }
 </code></pre>
 
+
+
+
+## 2. 함수 코딩 스타일
+### 2-1. 함수 Parameters
+#### A. Parameter 가 3개 이상일 경우 라인을 구분하여 코딩한다.
+##### Ex a. 1 parameters
+<pre><code>
+/**
+* ...함수 주석
+*/
+public void testFunc(String a) {
+  //...
+}
+</code></pre>
+##### Ex b. 3 parameters
+<pre><code>
+/**
+* ...함수 주석
+*/
+public void testFunc(String a,
+                  String b,
+                  int c) {
+  //...
+}
+</code></pre>
+
+
+<pre><code>
+</code></pre>
