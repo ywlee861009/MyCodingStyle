@@ -45,3 +45,21 @@ public class CustomAlertDialog {
   ...
 }
 </code></pre>
+
+
+### 1-2. 함수 상단 주석
+#### A. 함수에는 다음과 같은 포맷으로 주석을 단다.
+
+<pre><code>
+/**
+* (기능,역할 - 필수)
+*
+* @param seq 회원의 순서
+*
+* @return seq 를 계산하여 회원의 이름을 리턴함
+*/
+public String getClientName4Seq(int seq) {
+  ...
+}
+</code></pre>
+
