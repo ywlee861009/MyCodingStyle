@@ -90,7 +90,7 @@ public void testFunc(String a,
 }
 </code></pre>
 
-### 2-1. call method
+### 2-2. call method
 #### A. 마찬가지로, method 호출 시 Parameter 가 3개 이상인 경우 다음과 같이 호출한다.
 <pre><code>
 String test1 = "test1";
@@ -103,9 +103,8 @@ callMethod(test1,
 </code></pre>
 
 
-
-
-
+### 2-3. method parameters null check
+#### A. 내부적으로 값이 
 
 
 <pre><code>
