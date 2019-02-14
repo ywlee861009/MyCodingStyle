@@ -1,8 +1,7 @@
 # Android Java Coding Style
 
 ## 1. 주석 스타일
-### 1-1. 클래스 최상단 주석
-
+### 1-1. class 최상단 주석
 #### A. 자동으로 만들어지는 주석은 사용하지 않는다.
 <pre><code>
 /**
@@ -47,8 +46,8 @@ public class CustomAlertDialog {
 </code></pre>
 
 
-### 1-2. 함수 상단 주석
-#### A. 함수에는 다음과 같은 포맷으로 주석을 단다.
+### 1-2. method 상단 주석
+#### A. method 에는 다음과 같은 포맷으로 주석을 단다.
 
 <pre><code>
 /**
@@ -67,8 +66,8 @@ public String getClientName4Seq(int seq) {
 <hr />
 
 
-## 2. 함수 코딩 스타일
-### 2-1. 함수 Parameters
+## 2. Method 코딩 스타일
+### 2-1. Method Parameters
 #### A. Parameter 가 3개 이상일 경우 라인을 구분하여 코딩한다.
 ##### Ex a. 1 parameters
 <pre><code>
@@ -90,6 +89,23 @@ public void testFunc(String a,
   //...
 }
 </code></pre>
+
+### 2-1. call method
+#### A. 마찬가지로, method 호출 시 Parameter 가 3개 이상인 경우 다음과 같이 호출한다.
+<pre><code>
+String test1 = "test1";
+int test2 = 2;
+float test3 = 3.2f;
+
+callMethod(test1,
+          test2,
+          test3);
+</code></pre>
+
+
+
+
+
 
 
 <pre><code>
