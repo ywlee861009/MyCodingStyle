@@ -104,7 +104,15 @@ callMethod(test1,
 
 
 ### 2-3. method parameters null check
-#### A. 내부적으로 값이 
+#### A. 내부적으로 값이 보장된 경우(private, protected) method 를 제외한
+####    public method 의 경우 paramter 의 null check 를 annotation 을 통해 complie 단계에서 거른다.
+<pre><code>
+public void customMethod(@NonNull String customString) {
+  // ...
+}
+</code></pre>
+
+
 
 
 <pre><code>
