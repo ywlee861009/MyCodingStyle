@@ -120,6 +120,19 @@ public void customMethod(@NonNull String customString) {
 
 1. Layout(Linear, Relative, Constraint, Frame...모든 레이아웃)
     : <b>layout_{id}</b>
+    
+2. Button : <b>btn_{id}</b>
+3. ImageView : <b>imgv_{id}</b>
+4. ImageButton : <b>imgb_{id}</b>
+5. ProgressBar, ProgressView : <b>pgrb(pgrv)_{id}</b>
+6. TextView : <b>txtv_{id}</b>
+7. EditText : <b>edt_{id}</b>
+8. Spinner : <b>spn_{id}</b>
+9. RecyclerView : <b>rcv_{id}</b>
+10. CheckBox : <b>cbx_{id}</b>
+11. RadioButton, RadioGroup : <b>rbtn(rgrp)_{id}</b>
+12. WebView : <b>webv_{id}</b>
+13. CustomView : <b>custv_{id}</b>
 
 
 
