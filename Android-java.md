@@ -115,5 +115,12 @@ public void customMethod(@NonNull String customString) {
 
 
 
+## 3. xml 작명 규칙
+### 3-1. 각각의 컴포넌트를 기반으로 한 접두어를 추가한다.
+
+1. button
 <pre><code>
+<Button
+  android:id="@+id/btn_..."
+  ... />
 </code></pre>
