@@ -115,8 +115,8 @@ public void customMethod(@NonNull String customString) {
 
 
 
-## 3. xml 작명 규칙
-### 3-1. 각각의 컴포넌트를 기반으로 한 접두어를 추가한다.
+## 3. Android Xml
+### 3-1. 작명규칙 : 각각의 컴포넌트를 기반으로 한 접두어를 추가한다.
 
 1. Layout(Linear, Relative, Constraint, Frame...모든 레이아웃)
     : <b>layout_{id}</b>
@@ -135,4 +135,7 @@ public void customMethod(@NonNull String customString) {
 13. CustomView : <b>custv_{id}</b>
 
 
+### 3-2. TODO
+
+xml Layout 은 항상 CMD+ALT+L 을 눌러 자동 정렬을 해놓는다.
 
